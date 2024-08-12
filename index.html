@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <script
+      src="https://kit.fontawesome.com/420fb380aa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <div class="main-width">
+        <header>
+          <div class="logo">
+            <i class="fa-solid fa-e"></i>
+          </div>
+
+          <nav>
+            <div class="hamb">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Works</a></li>
+                <li class="btn"><a href="#">Contact Me</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="container">
+            <div class="hero-text">
+                <h3>Hi, There!</h3>
+                <h1>I Am <span class="input"></span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ducimus necessitatibus facilis unde, at quam.</p>
+                <div class="social">
+                    <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitch"></i></a>
+                    <a href="#"><i class="fa-brands fa-discord"></i></a>
+                </div>
+
+                <button>More About Me</button>
+            </div>
+            <div class="bottom">
+                <p>Made with ❤️ By Subham Dhar</p>
+            </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        let typed = new Typed(".input", {
+            strings:["Elizabeth Elmiz.","Web Developer", "UI/UX Designer.", "MERN Stack Developer."],
+            typeSpeed:70,
+            backSpeed:60,
+            loop:true
+        });
+
+        
+    </script>
+  </body>
+</html>
